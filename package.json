@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-arquivo-pt",
+  "version": "0.1.0",
+  "description": "Arquivo.pt MCP — full-text search over the Portuguese web archive.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-arquivo-pt": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "arquivo-pt"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-arquivo-pt.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-12da4a04c068b0af7ae4d74f2a4db062514030d155606dd94732003eeb235cd3",
+    "sourceCommit": "29efecb1e77577b1ce49e14f4fd7bbaee3e63885"
+  }
+}
