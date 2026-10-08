@@ -6,7 +6,7 @@ Wayback Machine (pack `wayback`) needs the URL, Arquivo.pt indexes the text
 of what it captured, so a caller can find archived pages by phrase, then read
 a capture's extracted text or list every preserved version of a URL.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1721+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1743+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
@@ -35,10 +35,11 @@ Keyless.
 
 - Centred on the Portuguese web (`.pt` sites and Portuguese-language pages),
   but international pages linked from them are captured too. Probed 2026-10-08:
-  "climate change" ≈ 52.8M estimated hits (ipcc.ch, eea.europa.eu),
-  "quantum computing" ≈ 1.08M (microsoft.com, en.wikipedia.org),
-  "Federal Reserve interest rates" ≈ 1.9M (federalreserve.gov, vox.com).
-  English queries work; the top hits skew to pages Portuguese sites cite.
+  "climate change" ≈ 52-53M estimated hits (academia.edu, eea.europa.eu,
+  ipcc.ch), "quantum computing" ≈ 0.8-1.1M (techtarget.com, microsoft.com,
+  en.wikipedia.org), "Federal Reserve interest rates" ≈ 1.8-1.9M
+  (federalreserve.gov, vox.com). The estimate varies by index node. English
+  queries work; the top hits skew to pages Portuguese sites cite.
 - **The full-text index lags the crawl by years.** Probed 2026-10-08, a
   search restricted to `from=2022` returns 0 hits on most calls, one node
   answered with 2023 captures, and `arquivo_url_history` lists captures from
@@ -120,7 +121,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1721+ data sources. The
+Both URLs reach the same gateway and the same 1743+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
