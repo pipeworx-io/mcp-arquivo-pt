@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/arquivo-pt",
   "title": "Arquivo Pt",
   "description": "Arquivo.pt MCP — full-text search over the Portuguese web archive.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "websiteUrl": "https://pipeworx.io/packs/arquivo-pt",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-arquivo-pt",

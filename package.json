@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-arquivo-pt",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Arquivo.pt MCP — full-text search over the Portuguese web archive.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-0698f8b60367d3be409f20ab683b8ea3852a45589f547212b8256b43a96bfecb",
-    "sourceCommit": "54bf7d1c06a0775508a65d0c388dd10ba75174c3"
+    "sourceHash": "v1-6b0ac27c36311f15636d37e03546e11d124ca8844edb61537550fae3b87308ee",
+    "sourceCommit": "93c7d52ace03a2bb9aee5e6024f6858adab0dd04"
   }
 }
